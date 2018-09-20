@@ -1,0 +1,262 @@
+{
+	"filters" : [
+		{
+			"name" : "filter1",
+			"placeholder" : "select a filter value",
+			"options" : [
+				{
+					"value" : "1",
+					"text" : "Filter 1"
+				},
+				{
+					"value" : "2",
+					"text" : "Filter 2"
+				},
+				{
+					"value" : "3",
+					"text" : "Filter 3"
+				}
+			]
+		},
+		{
+			"name" : "filter2",
+			"placeholder" : "select a filter value",
+			"options" : [
+				{
+					"value" : "4",
+					"text" : "Filter 4"
+				},
+				{
+					"value" : "5",
+					"text" : "Filter 5"
+				}
+			]
+		},
+		{
+			"name" : "filter3",
+			"placeholder" : "select a filter value",
+			"options" : [
+				{
+					"value" : "6",
+					"text" : "Filter 6"
+				}
+			]
+		},
+		{
+			"name" : "filter4",
+			"placeholder" : "select a filter value",
+			"options" : [
+				{
+					"value" : "7",
+					"text" : "Filter 7"
+				},
+				{
+					"value" : "8",
+					"text" : "Filter 8"
+				},
+				{
+					"value" : "9",
+					"text" : "Filter 9"
+				}
+			]
+		}
+	],
+	"downloads" : [
+		{
+		    "url" : "//ifschleife.de",
+			"image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 1",
+		    "headline": "Has filter1{1}, filter2{5}",
+			"filterAttributes" : {
+				"filter1" : {
+					"value" : "1",
+					"text" : "Filter 1"
+				},
+				"filter2" : {
+					"value" : "5",
+					"text" : "Filter 5"
+				}
+			}
+		},
+		{
+			"url" : "//ifschleife.de",
+		    "image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 2",
+		    "headline": "Has filter2{4}, filter3{6}",
+			"filterAttributes" : {
+				"filter2" : {
+					"value" : "4",
+					"text" : "Filter 4"
+				},
+				"filter3" : {
+					"value" : "6",
+					"text" : "Filter 6"
+				}
+			}
+		},
+		{
+			"url" : "//ifschleife.de",
+		    "image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 3",
+		    "headline": "Has filter1{2}, filter2{4}, filter4{6}",
+			"filterAttributes" : {
+				"filter1" : {
+					"value" : "2",
+					"text" : "Filter 2"
+				},
+				"filter2" : {
+					"value" : "4",
+					"text" : "Filter 4"
+				},
+				"filter3" : {
+					"value" : "6",
+					"text" : "Filter 6"
+				}
+			}
+		},
+		{
+			"url" : "//ifschleife.de",
+		    "image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 4",
+		    "headline": "Has filter4{8,9}",
+			"filterAttributes" : {
+				"filter4" : {
+					"values" : ["8", "9"],
+					"texts" : ["Filter 8", "Filter 9"]
+				}
+			}
+		},
+		{
+			"url" : "//ifschleife.de",
+		    "image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 5",
+		    "headline": "Has filter1{3}, filter2{4,5}",
+			"filterAttributes" : {
+				"filter1" : {
+					"values" : ["3"],
+					"texts" : ["Filter 3"]
+				},
+				"filter2" : {
+					"values" : ["4", "5"],
+					"texts" : ["Filter 4", "Filter 5"]
+				}
+			}
+		},
+		{
+			"url" : "//ifschleife.de",
+		    "image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 6",
+		    "headline": "Has filter1{1,2,3}, filter2{4}, filter3{6}, filter4{7,9}",
+			"filterAttributes" : {
+				"filter1" : {
+					"values" : ["1", "2", "3"],
+					"texts" : ["Filter 1", "Filter 2", "Filter 3"]
+				},
+				"filter2" : {
+					"value" : "4",
+					"text" : "Filter 4"
+				},
+				"filter3" : {
+					"values" : ["6"],
+					"texts" : ["Filter 6"]
+				},
+				"filter4" : {
+					"values" : ["7", "9"],
+					"texts" : ["Filter 7", "Filter 9"]
+				}
+			}
+		},
+		{
+			"url" : "//ifschleife.de",
+		    "image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 7",
+		    "headline": "Has filter1{1,2}, filter4{7}",
+			"filterAttributes" : {
+				"filter1" : {
+					"values" : ["1", "2"],
+					"texts" : ["Filter 1", "Filter 2"]
+				},
+				"filter4" : {
+					"value" : "7",
+					"text" : "Filter 7"
+				}
+			}
+		},
+		{
+			"url" : "//ifschleife.de",
+		    "image" : {
+			    "alt": "Dummy Image",
+			    "sources": {
+			        "desktop": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "tablet": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "mobile": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg",
+			        "default": "https://www.ifschleife.de/site/media/uploads/images/pr0gramm/7ab924a73e5b8cc9.jpg"
+			    }
+			},
+		    "subheadline": "Download 8",
+		    "headline": "Has filter2{4,5}",
+			"filterAttributes" : {
+				"filter2" : {
+					"values" : ["4", "5"],
+					"texts" : ["Filter 4", "Filter 5"]
+				}
+			}
+		}
+	]
+}

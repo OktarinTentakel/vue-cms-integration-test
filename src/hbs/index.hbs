@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+	<head>
+		<title>Vue Test</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width"/>
+		<meta name="format-detection" content="telephone=no"/>
+
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+		<link rel="stylesheet" href="/css/main.css" media="all"/>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js" defer></script>
+		<script src="/js/app.js" defer></script>
+	</head>
+	<body>
+		<script>
+			var MODEL = {{{ JSONstringify model }}};
+		</script>
+		<main id="app"></main>
+	</body>
+</html>
